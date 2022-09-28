@@ -1,6 +1,6 @@
-![CI](https://github.com/nearform/bench-template/actions/workflows/ci.yml/badge.svg?event=push)
+![CI](https://github.com/nearform/module-federation-example/actions/workflows/ci.yml/badge.svg?event=push)
 
-# Bench Template
+# Module federation example
 A feature-packed template to start a new repository on the bench, including:
 
 - code linting with [ESlint](https://eslint.org) and [prettier](https://prettier.io)
