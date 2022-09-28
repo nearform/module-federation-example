@@ -20,7 +20,7 @@ jobs:
           version: latest
       - run: |
           pnpm i
-          npm lint
+          pnpm lint
 
   automerge:
     name: Merge dependabot's PRs
