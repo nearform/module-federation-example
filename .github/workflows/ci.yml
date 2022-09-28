@@ -15,10 +15,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: latest
       - run: |
-          npm ci
-          npm run lint
-          npm test
+          pnpm i
+          npm lint
 
   automerge:
     name: Merge dependabot's PRs
