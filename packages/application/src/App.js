@@ -3,7 +3,6 @@ import './App.css';
 
 import RedLoading from 'components/RedLoading'
 import Button from 'components/Button'
-import { Suspense } from 'react';
 
 function App() {
   return (
@@ -22,10 +21,8 @@ function App() {
           Learn React
         </a>
         <div>
-          <Suspense>
-            <RedLoading/>
-            <Button />
-          </Suspense>
+          <RedLoading/>
+          <Button />
         </div>
       </header>
     </div>

@@ -1,3 +1,4 @@
 .red-loading-container {
+  line-break: anywhere;
   color: red;
 }
