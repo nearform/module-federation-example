@@ -1,5 +1,5 @@
 {
-  "name": "application",
+  "name": "loading",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,8 @@
     "web-vitals": "^3.0.2"
   },
   "scripts": {
-    "start": "craco start",
-    "serve": "http-server ./build -p 3000",
+    "start": "PORT=3002 craco start",
+    "serve": "http-server ./build -p 3002",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
