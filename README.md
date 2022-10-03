@@ -5,7 +5,7 @@ This repository contains an example of module federation with three different pa
 
 This is the scenario that has been realized:
 
-![Real case scenario](img/scenario.svg)
+![Real case scenario](img/scenario.png)
 
 We have a host called application, a bidirectional host called components and a remote called loading.
 
