@@ -34,7 +34,8 @@
     "*.{js,jsx}": "eslint --cache --fix"
   },
   "workspaces": [
-    "packages/dependencies",
-    "packages/ui-components"
+    "packages/application",
+    "packages/components",
+    "packages/loading"
   ]
 }
