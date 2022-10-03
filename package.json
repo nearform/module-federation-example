@@ -4,7 +4,7 @@
   "description": "Template to start a new repository on the bench",
   "scripts": {
     "lint": "eslint . && npm run lint --workspaces",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "npm run start --workspace=application & npm run start --workspace=components & npm run start --workspace=loading",
     "prepare": "husky install"
   },
   "repository": {

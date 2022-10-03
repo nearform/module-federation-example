@@ -1,7 +1,7 @@
 ![CI](https://github.com/nearform/module-federation-example/actions/workflows/ci.yml/badge.svg?event=push)
 
 # Module federation example
-This repository contains an example of module federation with three different packages, all managed using `pnpm` workspaces.
+This repository contains an example of module federation with three different packages, all managed using `pnpm` workspaces.#
 
 This is the scenario that has been realized:
 
@@ -11,4 +11,16 @@ We have a host called application, a bidirectional host called components and a 
 
 In plain english: firstly, the remote will expose a single loading component.  
 Secondly, the bidirectional host will import the loading component, apply some CSS and then re-expose it. Additionally, it exposes a rounded button.  
-Finally, the host will include these two components that will be shown to the user.
+Finally, the hll include these two components that will be shown to the user.
+
+## Local development
+
+To locally run the example, you must:
+- install the dependencies
+```bash
+npm i
+```
+- execute the start script:
+```bash
+npm run start
+```
