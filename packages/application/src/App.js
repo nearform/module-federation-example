@@ -1,6 +1,6 @@
 import './App.css'
 
-import RedLoading from 'components/RedLoading'
+import ColorLoading from 'components/ColorLoading'
 import Button from 'components/Button'
 import { useEffect, useState } from 'react'
 
@@ -17,8 +17,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          {isLoading && <RedLoading />}
           <Button onClick={() => setIsLoading(true)} disabled={isLoading} />
+          {isLoading && <ColorLoading />}
         </div>
       </header>
     </div>

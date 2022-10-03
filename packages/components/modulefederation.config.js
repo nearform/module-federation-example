@@ -4,7 +4,7 @@ module.exports = {
   name: 'components',
   filename: 'components.js',
   exposes: {
-    './RedLoading': './src/components/red-loading/RedLoading.jsx',
+    './ColorLoading': './src/components/color-loading/ColorLoading.jsx',
     './Button': './src/components/button/Button.jsx'
   },
   remotes: {
