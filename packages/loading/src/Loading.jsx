@@ -8,7 +8,7 @@ const Loading = () => {
       500
     )
     return () => clearInterval(interval)
-  })
+  }, [])
 
   return `Loading ${'.'.repeat(tickedTimes)}`
 }
