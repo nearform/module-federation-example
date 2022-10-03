@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template to start a new repository on the bench",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . && npm run lint --workspaces",
     "test": "echo \"Error: no test specified\" && exit 0",
     "prepare": "husky install"
   },

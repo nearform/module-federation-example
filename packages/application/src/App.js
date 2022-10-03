@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
 import RedLoading from 'components/RedLoading'
 import Button from 'components/Button'
@@ -21,12 +21,12 @@ function App() {
           Learn React
         </a>
         <div>
-          <RedLoading/>
+          <RedLoading />
           <Button />
         </div>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
