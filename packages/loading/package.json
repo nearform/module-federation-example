@@ -38,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^6.4.5"
+    "@craco/craco": "^7.0.0"
   }
 }
